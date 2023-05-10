@@ -11,3 +11,131 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main {
+  background-color: rgb(73, 49, 49);
+  height: 100vh;
+  display: flex;
+
+  flex-direction: row;
+}
+.camera-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.camera-box {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  column-gap: .8rem;
+  justify-content: space-between;
+  align-items: center;
+  justify-self: center;
+  /* background-color: orange; */
+
+}
+
+.videobox {
+  margin:  0 auto;
+  width: 400px;
+}
+
+.videobox video {
+  /* height: 400px; */
+  width: 350px;
+  /* border-radius: 50%; */
+  background-color: #000;
+}
+
+.btn {
+  width: 250px;
+  height: 40px;
+  border: none;
+
+}
+
+.login-btn {
+  background-color: blueviolet;
+  color: #fff;
+  color: black;
+  padding:  .9rem .5rem;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.loading {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.login-btn:hover{
+  background-color: rgb(220, 207, 231);
+  color: white;
+}
+.register-btn {
+  background-color: blueviolet;
+  color: #fff;
+  color: black;
+  padding:  .9rem .5rem;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+.name {
+  color: rgb(154, 123, 167);
+}
+.register-btn:hover {
+  background-color: blueviolet;
+  color: white;
+}
+.buttons {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.name-input {
+  width: 97%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.name-input:focus {
+  outline: none;
+  border: 3px solid blueviolet;
+}
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.head {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+.profile {
+  display: flex;
+  height: 100px;
+  width: 90%;
+  justify-content: right;
+  align-items: center;
+  justify-self: center;
+  column-gap: .9rem;
+}
+.logout {
+  color: blueviolet;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;;
+}
